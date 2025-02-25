@@ -1,0 +1,119 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selling - Ecommerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="buying.html">Buying</a></li>
+                <li><a href="selling.html">Selling</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Selling</h1>
+        <p>Learn how to sell your products on our platform.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Ecommerce Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selling - Ecommerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="buying.html">Buying</a></li>
+                <li><a href="selling.html">Selling</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="seller-guide">
+            <h2>How to Sell</h2>
+            <div class="guide-steps">
+                <div class="guide-step">
+                    <div class="step-number">1</div>
+                    <h3>List Your Product</h3>
+                    <p>Fill in product details and upload photos</p>
+                </div>
+                <div class="guide-step">
+                    <div class="step-number">2</div>
+                    <h3>Set Your Price</h3>
+                    <p>Choose competitive pricing for your items</p>
+                </div>
+                <div class="guide-step">
+                    <div class="step-number">3</div>
+                    <h3>Manage Orders</h3>
+                    <p>Ship items and receive payments securely</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="seller-form">
+            <h2>List New Product</h2>
+            <form id="sellerForm">
+                <div class="form-group">
+                    <label>Product Title</label>
+                    <input type="text" placeholder="Enter product name" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Product Description</label>
+                    <textarea rows="5" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Product Images</label>
+                    <div class="image-upload">
+                        <div class="upload-box">
+                            <i class="fas fa-plus"></i>
+                            <p>Click to upload images</p>
+                            <input type="file" accept="image/*" multiple>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price-section">
+                    <label>Pricing</label>
+                    <div class="price-input">
+                        <span>$</span>
+                        <input type="number" step="0.01" min="0" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="cta-button">List Product</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Ecommerce Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
